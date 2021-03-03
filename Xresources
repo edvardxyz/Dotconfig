@@ -1,0 +1,59 @@
+URxvt*font:		    xft:Hack:size=10
+
+URxvt*termName:             rxvt
+URxvt*background:           #282c34
+URxvt*foreground:           #FFFFFF
+URxvt*scrollBar:            false
+
+URxvt.perl-ext-common:      default,matcher,selection-to-clipboard,pasta,keyboard-select
+URxvt.url-launcher:         /usr/bin/firefox-bin
+URxvt.keysym.M-u:           perl:url-select:select_next
+URxvt.matcher.button:       1
+URxvt.keysym.M-Escape:perl:keyboard-select:activate
+URxvt.keysym.Control-Shift-V:   perl:pasta:paste
+URxvt.clipboard.autocopy: true
+
+
+Xft*dpi:                    96
+Xft*antialias:              true
+Xft*hinting:                true
+Xft*hintstyle:              hintfull
+Xft*rgba:                   rgb
+
+URxvt.internalBorder:       21
+URxvt.transparent:          false
+URxvt.tintColor:            #54487a
+URxvt.shading:              100
+URxvt.inheritPixmap:        false
+URxvt.fading:               100
+
+URxvt.saveLines:            50000
+URxvt.cursorBlink:          1
+
+URxvt*scrollTtyOutput: 	    false
+URxvt*scrollWithBuffer:     true
+URxvt*scrollTtyKeypress:    true
+
+URxvt*color0:      	        #1c1f24
+URxvt*color8:      	        #5B6268
+
+URxvt*color1:               #ff6c6b
+URxvt*color9:      	        #ff6c6b
+
+URxvt*color2:      	        #98be65
+URxvt*color10:     	        #98be65
+
+URxvt*color3:      	        #DA8548
+URxvt*color11:     	        #ECBE7B
+
+URxvt*color4:      	        #2257a0
+URxvt*color12:     	        #2257a0
+
+URxvt*color5:      	        #c678dd
+URxvt*color13:     	        #c678dd
+
+URxvt*color6:      	        #5699AF
+URxvt*color14:     	        #5699AF
+
+URxvt*color7:      	        #202328
+URxvt*color15:     	        #DFDFDF
